@@ -1,18 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="a5c383e8-2a07-4e24-ac57-a1e1ee295023" name="Changes" comment="" />
+    <list default="true" id="a5c383e8-2a07-4e24-ac57-a1e1ee295023" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/drfsitewomen/db.sqlite3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drfsitewomen/drfsitewomen/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drfsitewomen/drfsitewomen/asgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drfsitewomen/drfsitewomen/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drfsitewomen/drfsitewomen/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drfsitewomen/drfsitewomen/wsgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drfsitewomen/manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drfsitewomen/women/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drfsitewomen/women/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drfsitewomen/women/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drfsitewomen/women/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drfsitewomen/women/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drfsitewomen/women/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drfsitewomen/women/serializers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drfsitewomen/women/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drfsitewomen/women/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/drf_sitewomen.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/drf_sitewomen.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Du55yDuck&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:Du55yDuck/DRF_sitewomen.git&quot;,
+    &quot;accountId&quot;: &quot;cb9803da-7635-4e0a-9da2-0bfa289e388c&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2fxrUUSawsKhGA9pYbyGtvRiI80" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -21,8 +68,10 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.models.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master"
+    "git-widget-placeholder": "feature/tik-1",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="SharedIndexes">
@@ -42,5 +91,16 @@
       <updated>1714753585260</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
