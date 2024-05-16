@@ -10,16 +10,19 @@ from .serializers import WomenSerializer
 
 class WomenAPIView(APIView):  # Базовый класс наследуем от APIView
     def get(self, request):  # обработка параметров get запросов
-        lst = Women.objects.all().values()  # прочесть все данные из таблицы Women(queryset + values)
-        return Response({'posts': list(lst)})  # возвращает клиенту json-строку (list из записей постов)
+        w = Women.objects.all()  # прочесть все данные из таблицы Women(queryset) - список статей
+        return Response({'posts': WomenSerializer(w, many=True).data})  # возвращает клиенту json-строку(список записей)
 
     def post(self, request):  # обработка post запросов, позволяет добавлять новые данные в бд
-        post_new = Women.objects.create(  # ссылка на новую запись в таблице Women
+        serializer = WomenSerializer(data=request.data)  # сериализатор на основе данных из POST-запроса
+        serializer.is_valid(raise_exception=True)  # проверка на корректность, данные WomenSerializer и вывод исключения
+
+        post_new = Women.objects.create(  # ссылка на новую запись в таблице Women (сохранение данных в бд)
             title=request.data['title'],  # обязательные поля --> ссылки на значение одноименного ключа
             content=request.data['content'],
             cat_id=request.data['cat_id'],
         )
-        return Response({'post': model_to_dict(post_new)})  # возвращает клиенту, добавленное значение в бд
+        return Response({'post': WomenSerializer(post_new).data})  # возвращает клиенту, добавленное значение в бд
 
 
 # class WomenAPIView(generics.ListAPIView):  # Базовый класс представления
