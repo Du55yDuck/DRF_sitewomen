@@ -21,6 +21,18 @@ class WomenSerializer(serializers.Serializer):  # класс, сериализу
     is_published = serializers.BooleanField(default=True)  # статус публикации - по умолчанию включен
     cat_id = serializers.IntegerField()  # категория как int из-за подачи в JSON-строках
 
+    def create(self, validated_data):  # стандартный метод сериализатора создания новых данных в бд
+        return Women.objects.create(**validated_data)  # через Women создать (распакованный словарь validated_data)
+
+    def update(self, instance, validated_data):  # метод для обновления данных сериализатором
+        instance.title = validated_data.get("title", instance.title)  # instance - ссылка на объект Women (взять нужный
+        instance.content = validated_data.get("content", instance.content)  # key из словаря, иначе вернуть key из Women
+        instance.time_update = validated_data.get("time_update", instance.time_update)  # обновить время
+        instance.is_published = validated_data.get("is_published", instance.is_published)
+        instance.cat_id = validated_data.get("cat_id", instance.cat_id)
+        instance.save()
+        return instance  # вернуть instance
+
 
 # def encode():  # ф-я для примера (преобразование объектов WomenModel в JSON)
 #     model = WomenModel('Angelina Jolie', 'Content: Angelina Jolie')  # модель объекта WomenModel

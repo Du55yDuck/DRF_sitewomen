@@ -4,8 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a5c383e8-2a07-4e24-ac57-a1e1ee295023" name="Changes" comment="Create class WomenAPIView(APIView). Download Postman.">
+    <list default="true" id="a5c383e8-2a07-4e24-ac57-a1e1ee295023" name="Changes" comment="Fix class WomenAPIView(). Fix WomenSerializer().&#10;Add # funcs for example.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drfsitewomen/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/drfsitewomen/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drfsitewomen/drfsitewomen/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/drfsitewomen/drfsitewomen/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drfsitewomen/women/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/drfsitewomen/women/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drfsitewomen/women/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/drfsitewomen/women/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,7 +26,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="feature/tik-02" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -48,15 +52,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.models.executor&quot;: &quot;Run&quot;,
-    &quot;Python.views.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.models.executor": "Run",
+    "Python.views.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "feature/tik-04",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -81,7 +85,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715712543428</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Fix class WomenAPIView(). Fix WomenSerializer().&#10;Add # funcs for example.">
+      <option name="closed" value="true" />
+      <created>1715876341601</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1715876341601</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -97,6 +109,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Create base models.&#10;WomenAPIView, WomenSerializer." />
-    <option name="LAST_COMMIT_MESSAGE" value="Create base models.&#10;WomenAPIView, WomenSerializer." />
+    <MESSAGE value="Fix class WomenAPIView(). Fix WomenSerializer().&#10;Add # funcs for example." />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix class WomenAPIView(). Fix WomenSerializer().&#10;Add # funcs for example." />
   </component>
 </project>
