@@ -8,7 +8,12 @@ from .models import Women  # импорт Women
 from .serializers import WomenSerializer
 
 
-class WomenAPIView(APIView):  # Базовый класс наследуем от APIView
+class WomenAPIList(generics.ListCreateAPIView):  # ListCreateAPIView - чтение данных (GET) и добавление (POST-запрос)
+    queryset = Women.objects.all()  # атрибут ссылается на список записей, возвращаемый клиенту
+    serializer_class = WomenSerializer  # сериализатор применяется к queryset
+
+
+class WomenAPIView(APIView):  # Базовый класс наследуем от APIView с CRUD
     def get(self, request):  # обработка параметров get запросов
         w = Women.objects.all()  # прочесть все данные из таблицы Women(queryset) - список статей
         return Response({'posts': WomenSerializer(w, many=True).data})  # возвращает клиенту json-строку(список записей)
@@ -41,10 +46,13 @@ class WomenAPIView(APIView):  # Базовый класс наследуем о�
         if not pk:  # если нет, то вывод сообщения об ошибке
             return Response({"error": "Method DELETE not allowed"})
 
-        # здесь нужна логика
+        try:  # проверка на наличие ключа pk в модели Women
+            instance = Women.objects.get(pk=pk)
+        except:  # если ключа pk нет в таблице, тогда вывод ответа об ошибке
+            return Response({"error": "Object does not exists"})
 
+        instance.delete()  # метод удалить к выбранному pk через instance
         return Response({"post": "delete post " + str(pk)})  # вернуть ответ клиенту об удаленной записи
-
 
 # class WomenAPIView(generics.ListAPIView):  # Базовый класс представления
 #     queryset = Women.objects.all()  # взять все записи из таблицы Women
