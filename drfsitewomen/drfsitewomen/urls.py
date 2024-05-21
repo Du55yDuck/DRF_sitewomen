@@ -22,7 +22,9 @@ from women.views import *
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('api/v1/womenlist/', WomenAPIList.as_view()),  # маршрут к WomenAPIList
-    path('api/v1/womenlist/<int:pk>/', WomenAPIList.as_view()),  # маршрут для идентификатора записей pk
+    path('api/v1/womenlist/<int:pk>/', WomenAPIUpdate.as_view()),  # маршрут для идентификатора записей pk
+    path('api/v1/womendetail/<int:pk>/', WomenAPIDetailView.as_view()),  # маршрут для класса (CRUD)
 ]
+
 
 
