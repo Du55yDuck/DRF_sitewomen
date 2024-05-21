@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a5c383e8-2a07-4e24-ac57-a1e1ee295023" name="Changes" comment="Fix class WomenAPIView(). &#10;Fix class WomenSerializer().">
+    <list default="true" id="a5c383e8-2a07-4e24-ac57-a1e1ee295023" name="Changes" comment="Add WomenAPIList() &#10;Fix class WomenSerializer()">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/drfsitewomen/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/drfsitewomen/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drfsitewomen/drfsitewomen/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/drfsitewomen/drfsitewomen/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drfsitewomen/drfsitewomen/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/drfsitewomen/drfsitewomen/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/drfsitewomen/women/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/drfsitewomen/women/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,7 +57,7 @@
     "Python.models.executor": "Run",
     "Python.views.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "feature/tik-05",
+    "git-widget-placeholder": "feature/tik-06",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
@@ -90,7 +93,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715876341601</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Add WomenAPIList() &#10;Fix class WomenSerializer()">
+      <option name="closed" value="true" />
+      <created>1716050172101</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1716050172101</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -98,7 +109,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -107,6 +130,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Create base models.&#10;WomenAPIView, WomenSerializer." />
     <MESSAGE value="Fix class WomenAPIView(). Fix WomenSerializer().&#10;Add # funcs for example." />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix class WomenAPIView(). Fix WomenSerializer().&#10;Add # funcs for example." />
+    <MESSAGE value="Add WomenAPIList() &#10;Fix class WomenSerializer()" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add WomenAPIList() &#10;Fix class WomenSerializer()" />
   </component>
 </project>

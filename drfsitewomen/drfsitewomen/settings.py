@@ -123,3 +123,11 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+
+REST_FRAMEWORK = {  # Управление глобальными настройками ДРФ(регулировка ДРФ)
+    'DEFAULT_RENDER_CLASSES': [  # определение класса renderer
+        'rest_framework.renders.JSONRender',  # формат JSON в обмене между сервером и клиентом
+        'rest_framework.renders.BrowsableAPIRender',  # подключен API браузера через ДРФ (Выкл перед сдачей проекта)
+    ]
+}
