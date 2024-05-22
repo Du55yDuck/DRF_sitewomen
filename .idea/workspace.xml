@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a5c383e8-2a07-4e24-ac57-a1e1ee295023" name="Changes" comment="Add WomenAPIList() &#10;Fix class WomenSerializer()">
+    <list default="true" id="a5c383e8-2a07-4e24-ac57-a1e1ee295023" name="Changes" comment="Add WomenAPIUpdate(), WomenAPIDetail().&#10;Add default_render_classes">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_15_05_24,_22_01_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_15_05_24__22_01__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_15_05_24,_22_03_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_15_05_24__22_03__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drfsitewomen/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/drfsitewomen/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drfsitewomen/drfsitewomen/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/drfsitewomen/drfsitewomen/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/drfsitewomen/drfsitewomen/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/drfsitewomen/drfsitewomen/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/drfsitewomen/women/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/drfsitewomen/women/views.py" afterDir="false" />
     </list>
@@ -57,7 +59,7 @@
     "Python.models.executor": "Run",
     "Python.views.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "feature/tik-06",
+    "git-widget-placeholder": "feature/tik-07",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>

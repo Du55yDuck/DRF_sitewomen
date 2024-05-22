@@ -1,0 +1,62 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"AutoImportSettings\">\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\n  </component>\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"a5c383e8-2a07-4e24-ac57-a1e1ee295023\" name=\"Changes\" comment=\"Add WomenAPIList() &#10;Fix class WomenSerializer()\">\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/drfsitewomen/db.sqlite3\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/drfsitewomen/db.sqlite3\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/drfsitewomen/drfsitewomen/settings.py\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/drfsitewomen/drfsitewomen/settings.py\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/drfsitewomen/drfsitewomen/urls.py\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/drfsitewomen/drfsitewomen/urls.py\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/drfsitewomen/women/views.py\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/drfsitewomen/women/views.py\" afterDir=\"false\" />\n    </list>\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"FileTemplateManagerImpl\">\n    <option name=\"RECENT_TEMPLATES\">\n      <list>\n        <option value=\"Python Script\" />\n      </list>\n    </option>\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\n      <map>\n        <entry key=\"$PROJECT_DIR$\" value=\"main\" />\n      </map>\n    </option>\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"GitHubPullRequestSearchHistory\">{\n  &quot;lastFilter&quot;: {\n    &quot;state&quot;: &quot;OPEN&quot;,\n    &quot;assignee&quot;: &quot;Du55yDuck&quot;\n  }\n}</component>\n  <component name=\"GithubPullRequestsUISettings\">{\n  &quot;selectedUrlAndAccountId&quot;: {\n    &quot;url&quot;: &quot;git@github.com:Du55yDuck/DRF_sitewomen.git&quot;,\n    &quot;accountId&quot;: &quot;cb9803da-7635-4e0a-9da2-0bfa289e388c&quot;\n  }\n}</component>\n  <component name=\"ProjectColorInfo\">{\n  &quot;associatedIndex&quot;: 6\n}</component>\n  <component name=\"ProjectId\" id=\"2fxrUUSawsKhGA9pYbyGtvRiI80\" />\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\"><![CDATA[{\n  \"keyToString\": {\n    \"Python.models.executor\": \"Run\",\n    \"Python.views.executor\": \"Run\",\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\n    \"git-widget-placeholder\": \"feature/tik-06\",\n    \"settings.editor.selected.configurable\": \"preferences.pluginManager\"\n  }\n}]]></component>\n  <component name=\"SharedIndexes\">\n    <attachedChunks>\n      <set>\n        <option value=\"bundled-python-sdk-0509580d9d50-746f403e7f0c-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.14494.241\" />\n      </set>\n    </attachedChunks>\n  </component>\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"a5c383e8-2a07-4e24-ac57-a1e1ee295023\" name=\"Changes\" comment=\"\" />\n      <created>1714753585260</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1714753585260</updated>\n    </task>\n    <task id=\"LOCAL-00001\" summary=\"Create base models.&#10;WomenAPIView, WomenSerializer.\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1715712543428</created>\n      <option name=\"number\" value=\"00001\" />\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1715712543428</updated>\n    </task>\n    <task id=\"LOCAL-00002\" summary=\"Fix class WomenAPIView(). Fix WomenSerializer().&#10;Add # funcs for example.\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1715876341601</created>\n      <option name=\"number\" value=\"00002\" />\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1715876341601</updated>\n    </task>\n    <task id=\"LOCAL-00003\" summary=\"Add WomenAPIList() &#10;Fix class WomenSerializer()\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1716050172101</created>\n      <option name=\"number\" value=\"00003\" />\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1716050172101</updated>\n    </task>\n    <option name=\"localTasksCounter\" value=\"4\" />\n    <servers />\n  </component>\n  <component name=\"Vcs.Log.Tabs.Properties\">\n    <option name=\"TAB_STATES\">\n      <map>\n        <entry key=\"MAIN\">\n          <value>\n            <State>\n              <option name=\"FILTERS\">\n                <map>\n                  <entry key=\"branch\">\n                    <value>\n                      <list>\n                        <option value=\"main\" />\n                      </list>\n                    </value>\n                  </entry>\n                </map>\n              </option>\n            </State>\n          </value>\n        </entry>\n      </map>\n    </option>\n  </component>\n  <component name=\"VcsManagerConfiguration\">\n    <MESSAGE value=\"Create base models.&#10;WomenAPIView, WomenSerializer.\" />\n    <MESSAGE value=\"Fix class WomenAPIView(). Fix WomenSerializer().&#10;Add # funcs for example.\" />\n    <MESSAGE value=\"Add WomenAPIList() &#10;Fix class WomenSerializer()\" />\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"Add WomenAPIList() &#10;Fix class WomenSerializer()\" />\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision e05985dcf372fa49bb0bccfbafe83e686e29a265)
++++ b/.idea/workspace.xml	(date 1716317320509)
+@@ -4,13 +4,7 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="a5c383e8-2a07-4e24-ac57-a1e1ee295023" name="Changes" comment="Add WomenAPIList() &#10;Fix class WomenSerializer()">
+-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/drfsitewomen/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/drfsitewomen/db.sqlite3" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/drfsitewomen/drfsitewomen/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/drfsitewomen/drfsitewomen/settings.py" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/drfsitewomen/drfsitewomen/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/drfsitewomen/drfsitewomen/urls.py" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/drfsitewomen/women/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/drfsitewomen/women/views.py" afterDir="false" />
+-    </list>
++    <list default="true" id="a5c383e8-2a07-4e24-ac57-a1e1ee295023" name="Changes" comment="Add WomenAPIUpdate(), WomenAPIDetail().&#10;Add default_render_classes" />
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+@@ -101,7 +95,23 @@
+       <option name="project" value="LOCAL" />
+       <updated>1716050172101</updated>
+     </task>
+-    <option name="localTasksCounter" value="4" />
++    <task id="LOCAL-00004" summary="Add WomenAPIUpdate(), WomenAPIDetail().ses.&#10;Add default_rendere_clas">
++      <option name="closed" value="true" />
++      <created>1716317133766</created>
++      <option name="number" value="00004" />
++      <option name="presentableId" value="LOCAL-00004" />
++      <option name="project" value="LOCAL" />
++      <updated>1716317133766</updated>
++    </task>
++    <task id="LOCAL-00005" summary="Add WomenAPIUpdate(), WomenAPIDetail().&#10;Add default_render_classes">
++      <option name="closed" value="true" />
++      <created>1716317299053</created>
++      <option name="number" value="00005" />
++      <option name="presentableId" value="LOCAL-00005" />
++      <option name="project" value="LOCAL" />
++      <updated>1716317299053</updated>
++    </task>
++    <option name="localTasksCounter" value="6" />
+     <servers />
+   </component>
+   <component name="Vcs.Log.Tabs.Properties">
+@@ -131,6 +141,9 @@
+     <MESSAGE value="Create base models.&#10;WomenAPIView, WomenSerializer." />
+     <MESSAGE value="Fix class WomenAPIView(). Fix WomenSerializer().&#10;Add # funcs for example." />
+     <MESSAGE value="Add WomenAPIList() &#10;Fix class WomenSerializer()" />
+-    <option name="LAST_COMMIT_MESSAGE" value="Add WomenAPIList() &#10;Fix class WomenSerializer()" />
++    <MESSAGE value="Add WomenAPIUpdate(), WomenAPIDetail().&#10;Add default_render_classes." />
++    <MESSAGE value="Add WomenAPIUpdate(), WomenAPIDetail().ses.&#10;Add default_rendere_clas" />
++    <MESSAGE value="Add WomenAPIUpdate(), WomenAPIDetail().&#10;Add default_render_classes" />
++    <option name="LAST_COMMIT_MESSAGE" value="Add WomenAPIUpdate(), WomenAPIDetail().&#10;Add default_render_classes" />
+   </component>
+ </project>
+\ No newline at end of file
