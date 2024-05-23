@@ -20,8 +20,8 @@ from django.urls import path, include
 from women.views import *
 from rest_framework import routers  # импорт роутер
 
-router = routers.SimpleRouter()  # объект роутер от SimpleRouter
-router.register(r'women', WomenViewSet)  # регистрация в роутере класс WomenViewSet + префикс women
+router = routers.DefaultRouter()  # Объект роутер от DefaultRouter. Можно импорт и подключить кастомный ро-р(routers.py)
+router.register(r'women', WomenViewSet, basename='women')  # регистрация в роутере класс WomenViewSet + префикс women
 
 urlpatterns = [
     path('admin/', admin.site.urls),
