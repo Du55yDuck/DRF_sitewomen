@@ -4,10 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a5c383e8-2a07-4e24-ac57-a1e1ee295023" name="Changes" comment="Add class WomenViewSet() + router(). Del class viewsAPI().">
-      <change afterPath="$PROJECT_DIR$/drfsitewomen/women/routers.py" afterDir="false" />
+    <list default="true" id="a5c383e8-2a07-4e24-ac57-a1e1ee295023" name="Changes" comment="Fix ViewSet. Add MyCustomRouter.">
+      <change afterPath="$PROJECT_DIR$/drfsitewomen/women/migrations/0002_women_user.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drfsitewomen/women/permissions.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drfsitewomen/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/drfsitewomen/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drfsitewomen/drfsitewomen/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/drfsitewomen/drfsitewomen/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/drfsitewomen/drfsitewomen/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/drfsitewomen/drfsitewomen/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drfsitewomen/women/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/drfsitewomen/women/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drfsitewomen/women/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/drfsitewomen/women/serializers.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/drfsitewomen/women/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/drfsitewomen/women/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,7 +61,7 @@
     "Python.models.executor": "Run",
     "Python.views.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "feature/tik-08",
+    "git-widget-placeholder": "feature/tik-09",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>

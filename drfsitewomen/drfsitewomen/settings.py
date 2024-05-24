@@ -129,5 +129,9 @@ REST_FRAMEWORK = {  # Управление глобальными настрой
     'DEFAULT_RENDER_CLASSES': [  # определение класса renderer
         'rest_framework.renders.JSONRender',  # формат JSON в обмене между сервером и клиентом
         'rest_framework.renders.BrowsableAPIRender',  # подключен API браузера через ДРФ (Выкл перед сдачей проекта)
+    ],
+
+    'DEFAULT_PERMISSION_CLASSES': [  # глобальное ограничение доступа для всех URL, разрабатываемом API в рамках DRF
+        'rest_framework.permissions.AllowAny',  # доступ всем пользователям
     ]
 }
