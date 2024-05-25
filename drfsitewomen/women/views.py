@@ -29,7 +29,7 @@ from .serializers import WomenSerializer
 class WomenAPIList(generics.ListCreateAPIView):  # ListCreateAPIView - чтение данных (GET)
     queryset = Women.objects.all()  # атрибут ссылается на список записей, возвращаемый клиенту
     serializer_class = WomenSerializer  # сериализатор применяется к queryset
-    # permission_classes = (IsAuthenticatedOrReadOnly, )  # чтение всем или изменение для авторизованных (tuple or list)
+    permission_classes = (IsAuthenticatedOrReadOnly, )  # чтение всем или изменение для авторизованных (tuple or list)
 
 
 class WomenAPIUpdate(generics.RetrieveUpdateAPIView):  # Изменение автору, чтение всем (PUT, PATCH-запросы)
