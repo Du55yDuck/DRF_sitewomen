@@ -26,6 +26,7 @@ from rest_framework import routers  # импорт роутер
 urlpatterns = [
     path('admin/', admin.site.urls),
     # path('api/v1/', include(router.urls)),  # генерация всех urls через роутер + http://127.0.0.1:8000/api/v1/women
+    path('api/v1/drf-auth/', include('rest_framework.urls')),  # подключение авторизации ДРФ
     path('api/v1/women/', WomenAPIList.as_view()),  # маршрут получения списка статей
     path('api/v1/women/<int:pk>/', WomenAPIUpdate.as_view()),  # маршрут изменения записи
     path('api/v1/womendelete/<int:pk>/', WomenAPIDestroy.as_view()),  # маршрут удаления записи
