@@ -39,6 +39,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'women.apps.WomenConfig',  # подключение приложения
     'rest_framework',  # регистрация дрф
+    'rest_framework.authtoken',  # стандартная таблица ДРФ для авторизации по токенам
+    'djoser',  # библиотека djoser для аутентификации по токенам
 ]
 
 MIDDLEWARE = [
@@ -133,5 +135,13 @@ REST_FRAMEWORK = {  # Управление глобальными настрой
 
     'DEFAULT_PERMISSION_CLASSES': [  # глобальное ограничение доступа для всех URL, разрабатываемом API в рамках DRF
         'rest_framework.permissions.AllowAny',  # доступ всем пользователям
+    ],
+
+    'DEFAULT_AUTHENTICATION_CLASSES': [  # разрешения для ДРФ использовать auth
+        'rest_framework.authentication.TokenAuthentication',  # по токенам
+        'rest_framework.authentication.BasicAuthentication',  # базовая
+        'rest_framework.authentication.SessionAuthentication',  # по сессиям
     ]
 }
+
+

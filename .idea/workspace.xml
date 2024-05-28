@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a5c383e8-2a07-4e24-ac57-a1e1ee295023" name="Changes" comment="Add custom permissions. Fix serializer, model Women. Rollback views + fix.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drfsitewomen/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/drfsitewomen/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drfsitewomen/drfsitewomen/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/drfsitewomen/drfsitewomen/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drfsitewomen/women/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/drfsitewomen/women/views.py" afterDir="false" />
-    </list>
+    <list default="true" id="a5c383e8-2a07-4e24-ac57-a1e1ee295023" name="Changes" comment="Add auth drf." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,7 +20,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="feature/tik-10" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -56,7 +51,7 @@
     "Python.models.executor": "Run",
     "Python.views.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "feature/tik-10",
+    "git-widget-placeholder": "main",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
