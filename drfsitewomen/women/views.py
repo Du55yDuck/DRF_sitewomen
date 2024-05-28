@@ -1,6 +1,7 @@
 from rest_framework import viewsets, generics  # импорт generics
+from rest_framework.authentication import TokenAuthentication
 from rest_framework.decorators import action  # импорт action
-from rest_framework.permissions import IsAuthenticatedOrReadOnly, IsAdminUser
+from rest_framework.permissions import IsAuthenticatedOrReadOnly, IsAdminUser, IsAuthenticated
 from rest_framework.response import Response  # импорт response
 
 from .models import Women, Category  # модель Women, также имя модели берется в каждый URL[name='women-list']
@@ -35,7 +36,8 @@ class WomenAPIList(generics.ListCreateAPIView):  # ListCreateAPIView - чтен�
 class WomenAPIUpdate(generics.RetrieveUpdateAPIView):  # Изменение автору, чтение всем (PUT, PATCH-запросы)
     queryset = Women.objects.all()  # Клиенту возвращаются не все записи, а только измененные (ленивый запрос)
     serializer_class = WomenSerializer
-    permission_classes = (IsOwnerOrReadOnly, )  # чтение для всех, изменение статей авторам (class custom permission)
+    permission_classes = (IsAuthenticated, )  # чтение only auth user, изменение статей авторам(class custom permission)
+    # authentication_classes = (TokenAuthentication, )  # авторизация только по токенам (по сессиям отключено)
 
 
 class WomenAPIDestroy(generics.RetrieveDestroyAPIView):  # удаляет данных (DELETE-запросы)
