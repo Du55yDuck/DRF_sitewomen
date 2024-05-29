@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a5c383e8-2a07-4e24-ac57-a1e1ee295023" name="Changes" comment="Add auth drf." />
+    <list default="true" id="a5c383e8-2a07-4e24-ac57-a1e1ee295023" name="Changes" comment="Add auth of tokens with djoser.">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_21_05_24,_22_50_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_21_05_24,_22_51_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,7 +24,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="feature/tik-10" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -51,7 +55,7 @@
     "Python.models.executor": "Run",
     "Python.views.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "feature/tik-12",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
@@ -111,7 +115,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716581311049</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Add auth of tokens with djoser.">
+      <option name="closed" value="true" />
+      <created>1716921195877</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1716921195878</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -143,6 +155,7 @@
     <MESSAGE value="Add WomenAPIList() &#10;Fix class WomenSerializer()" />
     <MESSAGE value="Add class WomenViewSet() + router(). Del class viewsAPI()." />
     <MESSAGE value="Add custom permissions. Fix serializer, model Women. Rollback views + fix." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add custom permissions. Fix serializer, model Women. Rollback views + fix." />
+    <MESSAGE value="Add auth of tokens with djoser." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add auth of tokens with djoser." />
   </component>
 </project>
