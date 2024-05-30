@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a5c383e8-2a07-4e24-ac57-a1e1ee295023" name="Changes" comment="Add auth of tokens with djoser.">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_21_05_24,_22_50_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_21_05_24,_22_51_[Changes]/shelved.patch" beforeDir="false" />
+    <list default="true" id="a5c383e8-2a07-4e24-ac57-a1e1ee295023" name="Changes" comment="Add simple jwt. Add auth JWT-tokens">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drfsitewomen/drfsitewomen/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/drfsitewomen/drfsitewomen/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drfsitewomen/women/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/drfsitewomen/women/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +55,7 @@
     "Python.models.executor": "Run",
     "Python.views.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "feature/tik-12",
+    "git-widget-placeholder": "feature/tik-13",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
